@@ -1,0 +1,136 @@
+
+.degradar_1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(150deg, #fff102,  #f10271, #00c298);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.encabezado{
+    display: inline;
+    text-align: center;
+    margin-left: 30%;
+    color: #ffffff;
+    
+}
+header .logo{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+div{
+    position:absolute;
+    display: inline-block;
+    
+}
+.contenedor{
+    position: relative;
+    background: linear-gradient(150deg, #fff102,  #f10271, #00c298);
+    margin-top: 5%;
+    margin-left: 40px;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    border-radius: 10%;    
+}
+#mensaje{
+    border: rgb(28, 113, 146) solid;
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    
+}
+#desplazamiento{
+    border: rgb(28, 113, 146) solid;
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+#textArea{
+    border: rgb(28, 113, 146) solid;
+    border-radius: 15px;
+    width: 300px;
+    margin-top: 15px;
+    text-align: center;
+    height: 30px;
+}
+.btn{
+    display: inline;
+    align-items: center;
+    padding: .5rem 2rem;
+    margin-left: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    background-color: #3b70d4e7;
+    color: #fff;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+#resultado{
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    width: 700px;
+    bottom: 200px;
+    margin-left: 100px;
+    margin-right: 30px;
+        
+}
+#texto_2{
+    text-align: center;
+}
+.contenido{
+    margin: auto;
+    justify-content: left;
+    font-size: 20px;
+}
+.wiki{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 450px;
+}
+   
+#btn_copiar{
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem;
+    margin: auto;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #3b70d4e7;
+    color: #fff;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+footer{
+    text-align: center;
+}
+@media  screen and (max-width:480px) {
+   .contenedor, .contenido{
+    width: auto;
+    margin: 0 5px;
+   }
+   
+}

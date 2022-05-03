@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_encriptador.css">
+    <script src="encriptador.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--contenedor para dar estilo a la página-->
+    <div class="degradar_1">        
+    </div>
+
+    <div class="degradar_2">        
+    </div>
+
+    <header>
+        <img src="Img/Vector.png" class="logo">
+        <h1 class="encabezado">Encriptador de texto</h1>
+    </header>
+    
+    <div class="contenedor">
+        <h3>MENSAJE:</h3>
+        <p><input type="text" id="mensaje" placeholder="Introduzca el texto aquí."/></p>
+
+        <h3>DESPLAZAMIENTO:</h3>
+        <p><input type="number" id="desplazamiento" placeholder="Tipo de desplazamiento que desea."/></p>
+
+        
+            <button type="button" id="cifrar" class="btn">Cifrar</button>     
+            <button type="button" id="descifrar" class="btn">Descifrar</button> 
+          
+            <textarea id="textArea" placeholder="Su mensaje cifrado/descifrado AQUÍ"></textarea>
+            <button class="btn" id= "btn_copiar" onclick="copyToClipBoard()">Copiar</button>
+       
+    </div>
+        
+    <div class="texto">
+        <h2 id="texto_2">¿Qué es un sistema de cifrado?</h2>
+
+        <p class="contenido">En criptografía, el cifrado es un procedimiento que utiliza un algoritmo de cifrado con cierta clave para transformar un mensaje, sin atender a su estructura lingüística o significado, de tal forma que sea incomprensible o, al menos, difícil de comprender a toda persona que no tenga la clave secreta del algoritmo. <p class="wiki">Wikipedia.</p> </p>
+    </div>
+    
+    <footer>
+        <p>Lucas Morales. Dev Alura Latam y Oracle</p></footer>
+          
+</body>
+</html>
